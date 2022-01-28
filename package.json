@@ -1,0 +1,24 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "A GET request to pull weather data from OpenWeather by zip code",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node_modules/.bin/mocha --exit"
+  },
+  "author": "Dora Jiang",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.0",
+    "nock": "^13.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
